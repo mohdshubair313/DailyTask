@@ -1,0 +1,75 @@
+body{
+ background-color: #244855;
+}
+
+
+.card {
+  width: 300px; /* Set the width of the card */
+  height: 400px; /* Set the height of the card */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  overflow: hidden; /* Hide overflow */
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Stylish gradient */
+  color: white; /* Text color */
+  padding: 20px;  /* Padding inside the card*/
+  transition: transform 0.3s; /* Smooth hover effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 80vh;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-header {
+  margin-bottom: 20px; /* Space between header and body */
+}
+
+.card-title {
+  font-size: 1.2em; 
+  line-height: 1.7; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: wheat;
+  text-align: justify;
+}
+
+.card-body {
+  flex-grow: 1; /* Allow the body to grow */
+}
+
+.card-description {
+  font-size: 1.2em; 
+  line-height: 1.7; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: wheat;
+  text-align: justify;
+}
+
+.card-footer {
+  text-align: center; /* Center the button */
+}
+
+.card-button {
+  background-color: #ffffff; /* Button background */
+  color: #6a11cb; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button */
+  padding: 10px 20px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.card-button:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+  font-size: larger;
+  transition: steps(9);
+}
